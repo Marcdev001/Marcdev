@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="css/about.css">
+</head>
+<body>
+    <!--navbar-->
+    <div class="navbar" id="myNavbar">
+        <a class="logo" style="font-style: italic;" href="#"><span style="color: orangered;"><b>Marc</b></span><b>Dev</b></a>
+        <a style="color: orangered;" class="nav-link" href="/index.html">Home</a>
+        <a class="nav-link" href="/about.html">About</a>
+        <a class="nav-link" href="/portfolio.html">Portfolio</a>
+        <a class="nav-link" href="/service.html">Services</a>
+        <a class="nav-link" href="/contact.html">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          &#9776;
+        </a>
+    </div>
+
+    <section class="about" id="about">
+      <div class="about-content">
+          <h2 style="margin-bottom: 1rem;">Intro<span style="color: orangered;">duction</span></h2>
+          <h3>Hello, I'm <span style="color: orangered;">Martin</span> a Junior <span style="color: orangered;">Frontend Developer</span></h3>
+
+          <p>with 1year of hands-on experience. Passionate about crafting seamless and visually appealing digital experiences, I bring a fresh perspective to the dynamic world of frontend developement. Welcome to my digital space, where creativity meets code, and every line has a purpose.
+          Let's explore the artistry of the web togther!
+          </p>
+      </div>
+    </section>
+
+    <section class="educ" id="about">
+      <div class="educ-content">
+          <h2 style="margin-bottom: 1rem;">Educa<span style="color: orangered;">tion</span></h2>
+          <h3>Formal <span style="color: orangered;">Education</span></h3>
+          <ul>
+            <li>
+              Completed Secondary School at Community Secondary School Ugbokpala, Enugu State.
+            </li>
+            &nbsp;
+            <li>
+              Year of completion: 8/10/2021
+            </li>
+          </ul>
+
+          <h3 style="margin-top: 20px;">Self-Taught <span style="color: orangered;">Learning</span></h3>
+          <p>While my formal education concluded at the secondary school level, I've been passionate about frontend developement and embarked on a self-taught journey to gain practical skills in HTML, CSS, BOOTSTRAP, JAVASCRIPT, REACTJS and a bit of VITEJS.</p>
+      </div>
+    </section>
+
+    <section class="skills">
+      <h2 style="margin-bottom: 20px;">Skills</h2>
+      <h3 style="margin-bottom: 10px;">Tech <span style="color: orangered;">Stack</span></h3>
+      <ul>
+        <li>Language: Html, Css, JavaScript</li>
+      </ul>
+      &nbsp;
+      <ul>
+        <li>Frameworks/Libraries: React, Bootstrap</li>
+      </ul>
+      &nbsp;
+      <ul>
+        <li>Tool: VsCode, Git, GitHub</li>
+      </ul>
+    </section>
+
+    <section class="passion">
+      <h2 style="font-style: italic;">"Driven by Passion: A Continuous Journey of Learning and Guided by Work philosophy in Frontend Developement"</h2>
+      <h3 style="margin-bottom: 5px; margin-top: 2.5rem;">Passion and <span style="color: orangered;">Motivation</span></h3>
+      <p style="margin-bottom: 1rem;">I am deeply passionate about frontend developement, driven by the desire to create impactful user experiences.My motivation lies in user impact, creative, continuous learning, innovation, career opportunities and problem solving.</p>
+
+      <h3 style="margin-bottom: 5px;">Continuous <span style="color: orangered;">Learning</span></h3>
+      <p style="margin-bottom: 1rem;">In my journey as a junior frontend developer, I am committed to a continuous pursuit of knowledge and growth.Enaging in online courses, workshops and self-directed learning, I stay abreast of emerging technologies, industry trends, and best practices.This proactive approach not only enhances my technical skills but also ensures that i deliver solutions that align with the latest advancements in frontend developement.</p>
+
+      <h3 style="margin-bottom: 5px;">Work <span style="color: orangered;">Philosophy</span></h3>
+      <p>At the core of my work as a junior frontend developer is a commitment to crafting seamless and user-centric experiences. I believe in the power of clean and maintainable code, placing a strong emphasis on attention to detail and design principles. My approach is guided by a collaborative mindset, where effective communication and teamwork play pivotal roles.I am dedicated to not just meeting but exceeding the expectations set by the dynamic field of frontend developement.</p>
+
+    </section>
+    <div>
+      <a class="button" href="#">back to top</a>
+    </div>
+    <section class="footer">
+      <p style="text-align: center;">&copy; 2023. All right</p>
+    </section>
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myNavbar");
+          if (x.className === "navbar") {
+            x.className += " responsive";
+          } else {
+            x.className = "navbar";
+          }
+        }
+        const knowledgeLevel = 60;
+        const knowledgeLevelElement = document.getElementById('knowledge');
+        knowledgeLevelElement.style.width = `${knowledgeLevel}`;
+      </script>
+</body>
+</html>
